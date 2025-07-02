@@ -3,8 +3,7 @@
   $start-point: -50px,
   $end-point: 0px,
   $delay: 0s,
-  $name: ciao,
-  $timing: ease
+  $name: heyoh
 ) {
   @keyframes #{$name} {
     from {
@@ -19,13 +18,12 @@
   animation-name: $name;
   animation-duration: $duration;
   animation-delay: $delay;
-  animation-timing-function: $timing;
   animation-fill-mode: both;
 }
 
 section#grid.padding-block-lg img#img1 {
   @include discesa(
-    $name: img-anim,
+    $name: heyoh,
     $duration: 1.2s,
     $start-point: -40px,
     $end-point: 0px,
@@ -34,7 +32,7 @@ section#grid.padding-block-lg img#img1 {
 }
 section#grid.padding-block-lg img#img2 {
   @include discesa(
-    $name: img-anim,
+    $name: heyoh,
     $duration: 2s,
     $start-point: -40px,
     $end-point: 0px,
@@ -43,7 +41,7 @@ section#grid.padding-block-lg img#img2 {
 }
 section#grid.padding-block-lg img#img3 {
   @include discesa(
-    $name: img-anim,
+    $name: heyoh,
     $duration: 3s,
     $start-point: -40px,
     $end-point: 0px,
@@ -52,7 +50,7 @@ section#grid.padding-block-lg img#img3 {
 }
 section#grid.padding-block-lg img#img4 {
   @include discesa(
-    $name: img-anim,
+    $name: heyoh,
     $duration: 4s,
     $start-point: -40px,
     $end-point: 0px,

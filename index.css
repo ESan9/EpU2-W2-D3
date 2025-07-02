@@ -261,13 +261,12 @@ body li {
 }
 
 section#grid.padding-block-lg img#img1 {
-  animation-name: img-anim;
+  animation-name: heyoh;
   animation-duration: 1.2s;
   animation-delay: 0.3s;
-  animation-timing-function: ease;
   animation-fill-mode: both;
 }
-@keyframes img-anim {
+@keyframes heyoh {
   from {
     opacity: 0;
     transform: translateY(-40px);
@@ -279,13 +278,12 @@ section#grid.padding-block-lg img#img1 {
 }
 
 section#grid.padding-block-lg img#img2 {
-  animation-name: img-anim;
+  animation-name: heyoh;
   animation-duration: 2s;
   animation-delay: 0.3s;
-  animation-timing-function: ease;
   animation-fill-mode: both;
 }
-@keyframes img-anim {
+@keyframes heyoh {
   from {
     opacity: 0;
     transform: translateY(-40px);
@@ -297,13 +295,12 @@ section#grid.padding-block-lg img#img2 {
 }
 
 section#grid.padding-block-lg img#img3 {
-  animation-name: img-anim;
+  animation-name: heyoh;
   animation-duration: 3s;
   animation-delay: 0.3s;
-  animation-timing-function: ease;
   animation-fill-mode: both;
 }
-@keyframes img-anim {
+@keyframes heyoh {
   from {
     opacity: 0;
     transform: translateY(-40px);
@@ -315,13 +312,12 @@ section#grid.padding-block-lg img#img3 {
 }
 
 section#grid.padding-block-lg img#img4 {
-  animation-name: img-anim;
+  animation-name: heyoh;
   animation-duration: 4s;
   animation-delay: 0.3s;
-  animation-timing-function: ease;
   animation-fill-mode: both;
 }
-@keyframes img-anim {
+@keyframes heyoh {
   from {
     opacity: 0;
     transform: translateY(-40px);
