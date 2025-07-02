@@ -264,7 +264,6 @@ section#grid.padding-block-lg img#img1 {
   animation-name: heyoh;
   animation-duration: 1.2s;
   animation-delay: 0.3s;
-  animation-fill-mode: both;
 }
 @keyframes heyoh {
   from {
@@ -281,7 +280,6 @@ section#grid.padding-block-lg img#img2 {
   animation-name: heyoh;
   animation-duration: 2s;
   animation-delay: 0.3s;
-  animation-fill-mode: both;
 }
 @keyframes heyoh {
   from {
@@ -298,7 +296,6 @@ section#grid.padding-block-lg img#img3 {
   animation-name: heyoh;
   animation-duration: 3s;
   animation-delay: 0.3s;
-  animation-fill-mode: both;
 }
 @keyframes heyoh {
   from {
@@ -315,7 +312,6 @@ section#grid.padding-block-lg img#img4 {
   animation-name: heyoh;
   animation-duration: 4s;
   animation-delay: 0.3s;
-  animation-fill-mode: both;
 }
 @keyframes heyoh {
   from {
