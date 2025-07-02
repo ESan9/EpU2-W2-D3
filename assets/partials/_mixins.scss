@@ -1,0 +1,45 @@
+@mixin floating(
+  $radius: 1em,
+  $shadow: 0 3px 6px rgba(0, 0, 0, 0.2),
+  $border: none
+) {
+  border-radius: $radius;
+  box-shadow: $shadow;
+  border: $border;
+}
+
+section#hero.padding-block-lg img {
+  @include floating(
+    $radius: 1em,
+    $shadow: 0 3px 6px rgba(0, 0, 0, 0.2),
+    $border: 1px solid #eee
+  );
+}
+
+section#grid.padding-block-lg img {
+  @include floating(
+    $radius: 2em,
+    $shadow: 0 5px 10px rgba(0, 0, 0, 0.4),
+    $border: none
+  );
+}
+
+@mixin grid($row-elements: 2) {
+  display: flex;
+  flex-wrap: wrap;
+  > * {
+    flex: 0 0 calc(100% / #{$row-elements});
+  }
+}
+
+#grid {
+  @include grid(4);
+}
+
+#grid1 {
+  @include grid(4);
+}
+
+#hero {
+  @include grid(2);
+}

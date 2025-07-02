@@ -1,0 +1,22 @@
+$font-h1: 1.2em;
+$font-li: 0.9em;
+$font-p: 0.8em;
+
+@mixin titlebig {
+  font-weight: bold;
+  font-size: large;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  h1 {
+    font-size: $font-h1;
+    @include titlebig();
+  }
+  p {
+    font-size: $font-p;
+  }
+  li {
+    font-size: $font-li;
+  }
+}

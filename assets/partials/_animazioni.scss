@@ -1,0 +1,61 @@
+@mixin discesa(
+  $duration: 2s,
+  $start-point: -50px,
+  $end-point: 0px,
+  $delay: 0s,
+  $name: ciao,
+  $timing: ease
+) {
+  @keyframes #{$name} {
+    from {
+      opacity: 0;
+      transform: translateY(#{$start-point});
+    }
+    to {
+      opacity: 1;
+      transform: translateY(#{$end-point});
+    }
+  }
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-delay: $delay;
+  animation-timing-function: $timing;
+  animation-fill-mode: both;
+}
+
+section#grid.padding-block-lg img#img1 {
+  @include discesa(
+    $name: img-anim,
+    $duration: 1.2s,
+    $start-point: -40px,
+    $end-point: 0px,
+    $delay: 0.3s
+  );
+}
+section#grid.padding-block-lg img#img2 {
+  @include discesa(
+    $name: img-anim,
+    $duration: 2s,
+    $start-point: -40px,
+    $end-point: 0px,
+    $delay: 0.3s
+  );
+}
+section#grid.padding-block-lg img#img3 {
+  @include discesa(
+    $name: img-anim,
+    $duration: 3s,
+    $start-point: -40px,
+    $end-point: 0px,
+    $delay: 0.3s
+  );
+}
+section#grid.padding-block-lg img#img4 {
+  @include discesa(
+    $name: img-anim,
+    $duration: 4s,
+    $start-point: -40px,
+    $end-point: 0px,
+    $delay: 0.3s
+  );
+}

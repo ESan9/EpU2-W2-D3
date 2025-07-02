@@ -1,0 +1,385 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+body button:nth-of-type(1) {
+  background-color: #0e6cff;
+}
+body button:nth-of-type(2) {
+  background-color: #ff8700;
+}
+body button:nth-of-type(3) {
+  background-color: #4caf50;
+}
+body section#hero {
+  background-color: #640fc5;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+body h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-size: large;
+}
+body p {
+  font-size: 0.8em;
+}
+body li {
+  font-size: 0.9em;
+}
+
+.padding-block-sm {
+  padding-block: 0.25em;
+}
+
+.padding-inline-sm {
+  padding-inline: 0.25em;
+}
+
+.margin-block-sm {
+  margin-block: 0.25em;
+}
+
+.margin-inline-sm {
+  margin-inline: 0.25em;
+}
+
+.padding-block-normal {
+  padding-block: 0.5em;
+}
+
+.padding-inline-normal {
+  padding-inline: 0.5em;
+}
+
+.margin-block-normal {
+  margin-block: 0.5em;
+}
+
+.margin-inline-normal {
+  margin-inline: 0.5em;
+}
+
+.padding-block-md {
+  padding-block: 0.75em;
+}
+
+.padding-inline-md {
+  padding-inline: 0.75em;
+}
+
+.margin-block-md {
+  margin-block: 0.75em;
+}
+
+.margin-inline-md {
+  margin-inline: 0.75em;
+}
+
+.padding-block-lg {
+  padding-block: 1em;
+}
+
+.padding-inline-lg {
+  padding-inline: 1em;
+}
+
+.margin-block-lg {
+  margin-block: 1em;
+}
+
+.margin-inline-lg {
+  margin-inline: 1em;
+}
+
+.padding-block-xl {
+  padding-block: 1.25em;
+}
+
+.padding-inline-xl {
+  padding-inline: 1.25em;
+}
+
+.margin-block-xl {
+  margin-block: 1.25em;
+}
+
+.margin-inline-xl {
+  margin-inline: 1.25em;
+}
+
+.padding-block-xxl {
+  padding-block: 1.5em;
+}
+
+.padding-inline-xxl {
+  padding-inline: 1.5em;
+}
+
+.margin-block-xxl {
+  margin-block: 1.5em;
+}
+
+.margin-inline-xxl {
+  margin-inline: 1.5em;
+}
+
+section#grid.padding-block-lg img#img1 {
+  animation-name: img-anim;
+  animation-duration: 1.2s;
+  animation-delay: 0.3s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+@keyframes img-anim {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+section#grid.padding-block-lg img#img2 {
+  animation-name: img-anim;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+@keyframes img-anim {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+section#grid.padding-block-lg img#img3 {
+  animation-name: img-anim;
+  animation-duration: 3s;
+  animation-delay: 0.3s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+@keyframes img-anim {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+section#grid.padding-block-lg img#img4 {
+  animation-name: img-anim;
+  animation-duration: 4s;
+  animation-delay: 0.3s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+@keyframes img-anim {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+section#hero.padding-block-lg img {
+  border-radius: 1em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #eee;
+}
+
+section#grid.padding-block-lg img {
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+#grid > * {
+  flex: 0 0 calc(100% / 4);
+}
+
+#grid1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#grid1 > * {
+  flex: 0 0 calc(100% / 4);
+}
+
+#hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+#hero > * {
+  flex: 0 0 calc(100% / 2);
+}
+
+.btn-primario {
+  background-color: #0e6cff;
+}
+
+.btn-pericolo {
+  background-color: #ff8700;
+}
+
+.btn-okay {
+  background-color: #4caf50;
+}
+
+button:hover {
+  background-color: black;
+}/*# sourceMappingURL=index.css.map */
